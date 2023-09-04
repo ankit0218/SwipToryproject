@@ -3,7 +3,7 @@ import styles from './Navbar.module.css'
 import Button from '../Buttons/Button';
 import { BsFillBookmarkFill } from 'react-icons/bs';
 import { RxHamburgerMenu } from 'react-icons/rx'
-import dummyProfile from '../../assets/portrait-smiling-man_107420-37633.webp'
+import dummyProfile from '../../assets/profile.png'
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
