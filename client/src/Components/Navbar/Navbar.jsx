@@ -101,6 +101,7 @@ const Navbar = () => {
                 }
                 <button
                 onClick={handleMenu}
+                style={(userInfo.email.length>0 && userInfo.userName.length>0)?{}:{display:'none'}}
                 className={styles.hamburger}>
                     <RxHamburgerMenu />
                 </button>
