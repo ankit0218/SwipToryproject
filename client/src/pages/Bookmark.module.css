@@ -1,0 +1,22 @@
+.bookmark{
+    max-width:100%;
+    background-color: white;
+    max-height: 90%;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
+    padding: 4rem;
+}
+.heading{
+
+}
+.list{
+    list-style: none;
+    width:100%;
+    justify-content: space-between;
+    align-items: start;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto
+}

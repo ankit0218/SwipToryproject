@@ -1,0 +1,37 @@
+.slide{
+    min-width:80px;
+    min-height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: 600;
+    z-index: 100;
+    position: relative;
+    cursor:pointer;
+    box-shadow: 8px 8px 12px gainsboro;
+}
+.add_slide_btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+}
+.remove_slide{
+    position: absolute;
+    top:4px;
+    right:4px;
+    width: 15px;
+    height:15px;
+    background:none;
+    color:red;
+    border:1px solid red;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 555;
+
+}

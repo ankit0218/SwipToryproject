@@ -1,0 +1,10 @@
+const {Router}=require("express");
+const signup = require("../controller/signup.controller");
+const { Token } = require("../handler/token.handler");
+const login = require("../controller/login.controller");
+const logout = require("../controller/logout.controller");
+const routes=Router();
+routes.post("/signup",signup,Token);
+routes.post("/login",login,Token);
+routes.get("/logout",logout);
+module.exports=routes;

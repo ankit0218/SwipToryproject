@@ -1,0 +1,20 @@
+.textArea{
+    display:flex;
+    align-items: start;
+    gap:4rem;
+    justify-content: space-between;
+}
+.label{
+    font-weight: 700;
+    font-size: larger;
+}
+.container{
+    position: relative;
+    display:flex;
+    
+}
+.container .textarea{
+    border: 2px solid black;
+    padding:8px 12px;
+    border-radius: 4px;
+}

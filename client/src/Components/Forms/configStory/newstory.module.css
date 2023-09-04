@@ -1,0 +1,66 @@
+.NewStory{
+    background-color: white;
+    border-radius: 24px;
+    min-width:450px;
+    z-index: 999;
+    height:60vh;
+    position: relative;
+    gap:3rem;
+    padding:2rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.6);
+}
+.close_button{
+    position: absolute;
+    top:30px;
+    border:none;
+    background: none;
+    right:30px;
+    border-radius: 50%;
+    cursor: pointer;
+    color:red;
+}
+.slide_list{
+    list-style: none;
+    display: flex;
+    gap:1rem;
+    width:90%;
+    overflow: scroll;
+    padding:6px 0;
+    margin:0 12px;
+}
+.slide_list::-webkit-scrollbar{
+    display:none;
+}
+.slide_list .addSlide{
+    min-width:80px;
+    min-height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor:pointer;
+    box-shadow: 12px 12px 12px gainsboro;
+}
+.button{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button .left{
+    display:flex;
+    gap:1rem;
+}
+.error{
+    color:red;
+}
+@media screen and (min-width:540px){
+    .NewStory{
+        transform: scale(1);
+    }
+}

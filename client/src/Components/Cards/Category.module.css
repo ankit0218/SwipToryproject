@@ -1,0 +1,57 @@
+.categories{
+    width: 165px;
+    height: 165px;
+    border-radius: 2rem;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+    opacity: 0.5;
+}
+.categories .categoryName{
+    z-index: 100;
+    width: 600;
+    text-align: center;
+    color: white;
+
+}
+@media screen and (min-width:450px){
+    .categories{
+        width: 180px;
+        height: 180px;
+    }    
+}
+@media screen and (min-width:750px){
+    .categories{
+        width: 195px;
+        height: 195px;
+    }    
+}
+@media screen and (min-width: 950px) {
+    .categories{
+        width: 220px;
+        height: 220px;
+    }    
+}
+@media screen and (min-width: 1200px) {
+    .categories{
+        width: 235px;
+        height: 335px;
+    }    
+
+}
+@media screen and (min-width: 1200px) {
+    .categories{
+        width: 250px;
+        height: 250px;
+    }    
+}

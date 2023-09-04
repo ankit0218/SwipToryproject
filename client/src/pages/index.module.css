@@ -1,0 +1,36 @@
+.index{
+    max-width:100%;
+    padding:0.2rem;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    gap:4rem;
+}
+@media screen and (min-width:450px){
+    .index{
+        padding:0.5rem;
+    }
+}
+
+@media screen and (min-width:750px){
+    .index{
+        padding:0.7rem;
+    }
+}
+
+@media screen and (min-width:950px){
+    .index{
+        padding:0.9rem;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .index{
+        padding:0.12rem;
+    }
+}
+@media screen and (min-width:1450px){
+    .index{
+        padding:0.14rem;
+    }
+}

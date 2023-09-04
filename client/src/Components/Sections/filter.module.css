@@ -1,0 +1,14 @@
+.filter{
+    padding:1rem 2rem;
+}
+.filter .list{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    gap:5rem;
+    max-width: 100%;
+    overflow: scroll;
+}
+.list::-webkit-scrollbar{
+    display: none;
+}

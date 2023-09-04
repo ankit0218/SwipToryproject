@@ -1,0 +1,113 @@
+.navbar{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 100%;
+    padding:1rem 3rem;
+    box-shadow: 0 0 22px gainsboro;
+    position: sticky;
+    align-items: center;
+    z-index: 888;
+    background-color: white;
+    top:0
+}
+.left_item .home_link{
+    text-decoration: none;
+    color:black;
+}
+.home_link:active{
+    text-decoration: none;
+    color:black;
+}
+.left_item .logo{
+    font-weight: 600;
+    font-size: xx-large;
+}
+.right_item .body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.not_authorized,.authorized{
+    display:none;
+}
+.more_options{
+    position: relative;
+}
+.body .hamburger{
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    cursor: pointer;
+    font-size: xx-large;
+}
+.menu_card{
+    display:none;
+}
+.mobile_menu_section{
+    height:350px;
+    width:100vw;
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    top:60px;
+    right:0;
+    z-index: 200;
+    transition: 1s ease-in;
+    overflow: hidden;
+}
+.mobile_menu_section .not_auth,.auth{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap:2rem;
+}
+.auth .profileImg{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+}
+@media screen and (min-width:750px){
+    .menu_card{
+        display:flex;
+        flex-direction: column;
+        gap:1rem;
+        position: absolute;
+        right:0px;
+        box-shadow: 12px 12px 12px gray;
+        width:200px;
+        top:40px;
+        border-radius: 12px;
+        background-color: white;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding:1rem;
+        height:100px;
+    }
+    .not_authorized,.authorized{
+        display:flex;
+        gap:2rem;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+    .authorized .bookmark{
+        text-decoration: none;
+    }
+    .authorized .profileImg{
+        border-radius: 50%;
+        width:50px;
+        height:50px;
+    }
+    .menu_card .userName{
+        font-weight: 600;
+        font-size: x-large;
+    } 
+    .mobile_menu_section{
+        display: none;
+    }  
+}

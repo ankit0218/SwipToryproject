@@ -1,0 +1,44 @@
+.register{
+    background-color: white;
+    border-radius: 24px;
+    min-width:450px;
+    z-index: 999;
+    height:60vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap:3rem;
+    transform: scale(0.7);
+}
+.register .close_button{
+    position: absolute;
+    top:30px;
+    border:none;
+    background: none;
+    right:30px;
+    border-radius: 50%;
+    cursor: pointer;
+    color:red;
+}
+.register .heading{
+    font-size: x-large;
+    color: black;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5rem;
+}
+.form .input{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+@media screen and (min-width:540px) {
+    .register{
+        transform: scale(1);
+    }
+}
